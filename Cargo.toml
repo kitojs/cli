@@ -1,5 +1,6 @@
 [package]
 name = "cli"
+description = "🐺 The high-performance, type-safe and modern TypeScript web framework written in Rust."
 version = "0.1.0"
 edition = "2024"
 
@@ -15,3 +16,4 @@ panic = "abort"
 strip = true
 
 [dependencies]
+clap = { version = "4.5.47", features = ["derive"] }
